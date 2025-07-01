@@ -7,7 +7,7 @@ const HeroSection = () => {
     return (
         <>
             <Nav />
-            <section className="relative flex items-center justify-center bg-black h-[70vh] bg-cover bg-center " >
+            <section id='home' className="relative flex items-center justify-center bg-black h-[70vh] bg-cover bg-center " >
                 <img src="images/background.avif" alt="hero" className="w-full opacity-50 absolute h-full object-cover" />
                 <div className="absolute inset-0  bg-opacity-50"></div>
                 <div className="relative z-10 text-center text-white px-4">

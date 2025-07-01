@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="text-2xl font-bold text-yellow-500">Gourmet Haven</div>
         {/* Navigation Links */}
         <div className="flex space-x-6">
-          <a href="/" className="hover:text-yellow-400 transition">Home</a>
+          <a href="#home" className="hover:text-yellow-400 transition">Home</a>
           <a href="#menu" className="hover:text-yellow-400 transition">Menu</a>
           <a href="#about" className="hover:text-yellow-400 transition">About</a>
           <a href="#qualities" className="hover:text-yellow-400 transition">Qualities</a>
